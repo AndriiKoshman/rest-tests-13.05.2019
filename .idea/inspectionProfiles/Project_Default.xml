@@ -1,0 +1,181 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ArrayEquals" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="ArrayHashCode" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="ArrayObjectsEquals" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="AssertEqualsBetweenInconvertibleTypes" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="BashAddShebang" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="BashBuiltInVariable" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="BashFixShebang" enabled="true" level="Convention" enabled_by_default="true">
+      <shebang>/bin/bash</shebang>
+      <shebang>/bin/sh</shebang>
+    </inspection_tool>
+    <inspection_tool class="BashGlobalLocalVarDef" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="BashInternalCommandFunctionOverride" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="BashReplaceWithSubshell" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="BashSimpleVarUsage" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="BashUnknownFileDescriptor" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="BashUnresolvedVariable" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="CastToIncompatibleInterface" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="CatchMayIgnoreException" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="ConstantConditionalExpression" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="ConstantConditions" enabled="true" level="Convention" enabled_by_default="true">
+      <option name="SUGGEST_NULLABLE_ANNOTATIONS" value="false" />
+      <option name="DONT_REPORT_TRUE_ASSERT_STATEMENTS" value="false" />
+    </inspection_tool>
+    <inspection_tool class="ConstantIfStatement" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="DefaultFileTemplate" enabled="true" level="Convention" enabled_by_default="true">
+      <option name="CHECK_FILE_HEADER" value="true" />
+      <option name="CHECK_TRY_CATCH_SECTION" value="true" />
+      <option name="CHECK_METHOD_BODY" value="true" />
+    </inspection_tool>
+    <inspection_tool class="Duplicates" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="EmptyCatchBlock" enabled="true" level="Convention" enabled_by_default="true">
+      <option name="m_includeComments" value="true" />
+      <option name="m_ignoreTestCases" value="true" />
+      <option name="m_ignoreIgnoreParameter" value="true" />
+    </inspection_tool>
+    <inspection_tool class="EqualsBetweenInconvertibleTypes" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="EqualsOnSuspiciousObject" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="EqualsWithItself" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="ExcessiveLambdaUsage" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="ExtendsAnnotation" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="FieldHidesSuperclassField" enabled="true" level="Convention" enabled_by_default="true">
+      <option name="m_ignoreInvisibleFields" value="false" />
+    </inspection_tool>
+    <inspection_tool class="IOResource" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="ignoredTypesString" value="java.io.ByteArrayOutputStream,java.io.ByteArrayInputStream,java.io.StringBufferInputStream,java.io.CharArrayWriter,java.io.CharArrayReader,java.io.StringWriter,java.io.StringReader" />
+      <option name="insideTryAllowed" value="false" />
+    </inspection_tool>
+    <inspection_tool class="IfCanBeSwitch" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="minimumBranches" value="3" />
+      <option name="suggestIntSwitches" value="false" />
+      <option name="suggestEnumSwitches" value="true" />
+    </inspection_tool>
+    <inspection_tool class="ImplicitArrayToString" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="InfiniteLoopStatement" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="InfiniteRecursion" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="InnerClassMayBeStatic" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="InstanceofIncompatibleInterface" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="JSNonStrictModeUsed" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JavacQuirks" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="JsonDuplicatePropertyKeys" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="LongLiteralsEndingWithLowercaseL" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="LoopStatementsThatDontLoop" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="LossyEncoding" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="MVCPathVariableInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="MalformedFormatString" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="ManualArrayCopy" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="ManualArrayToCollectionCopy" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="MismatchedArrayReadWrite" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="MismatchedCollectionQueryUpdate" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="queryNames">
+        <value />
+      </option>
+      <option name="updateNames">
+        <value />
+      </option>
+      <option name="ignoredClasses">
+        <value />
+      </option>
+    </inspection_tool>
+    <inspection_tool class="MismatchedStringBuilderQueryUpdate" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="MissingOverrideAnnotation" enabled="true" level="Convention" enabled_by_default="true">
+      <option name="ignoreObjectMethods" value="false" />
+      <option name="ignoreAnonymousClassMethods" value="false" />
+    </inspection_tool>
+    <inspection_tool class="NewStringBufferWithCharArgument" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="NonAsciiCharacters" enabled="true" level="Convention" enabled_by_default="true">
+      <option name="CHECK_FOR_NOT_ASCII_STRING_LITERAL" value="true" />
+      <option name="CHECK_FOR_NOT_ASCII_COMMENT" value="true" />
+      <option name="CHECK_FOR_FILES_CONTAINING_BOM" value="true" />
+    </inspection_tool>
+    <inspection_tool class="NullableProblems" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="REPORT_NULLABLE_METHOD_OVERRIDES_NOTNULL" value="true" />
+      <option name="REPORT_NOT_ANNOTATED_METHOD_OVERRIDES_NOTNULL" value="true" />
+      <option name="REPORT_NOTNULL_PARAMETER_OVERRIDES_NULLABLE" value="true" />
+      <option name="REPORT_NOT_ANNOTATED_PARAMETER_OVERRIDES_NOTNULL" value="true" />
+      <option name="REPORT_NOT_ANNOTATED_GETTER" value="true" />
+      <option name="REPORT_NOT_ANNOTATED_SETTER_PARAMETER" value="true" />
+      <option name="REPORT_ANNOTATION_NOT_PROPAGATED_TO_OVERRIDERS" value="true" />
+      <option name="REPORT_NULLS_PASSED_TO_NON_ANNOTATED_METHOD" value="true" />
+    </inspection_tool>
+    <inspection_tool class="NumberEquality" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="NumericOverflow" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="ObjectEqualsNull" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="OnDemandImport" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="OverlyLongLambda" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="PointlessBooleanExpression" enabled="true" level="Convention" enabled_by_default="true">
+      <option name="m_ignoreExpressionsContainingConstants" value="true" />
+    </inspection_tool>
+    <inspection_tool class="ProblematicWhitespace" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="RedundantArrayCreation" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="RedundantCast" enabled="true" level="Convention" enabled_by_default="true">
+      <option name="IGNORE_SUSPICIOUS_METHOD_CALLS" value="true" />
+    </inspection_tool>
+    <inspection_tool class="RedundantTypeArguments" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="ReturnFromFinallyBlock" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="SillyAssignment" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SimplifiableConditionalExpression" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="SimplifyOptionalCallChains" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="SimplifyStreamApiCallChains" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="SpringAutowiredFieldsWarningInspection" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="SpringBootApplicationProperties" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SpringBootApplicationYaml" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SpringElInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SpringElStaticFieldInjectionInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SpringStaticMembersAutowiringInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SqlAmbiguousColumnInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SqlCheckUsingColumnsInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SqlConstantConditionInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SqlIdentifierInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SqlNullComparisonInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SqlResolveInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SqlShouldBeInGroupByInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SqlSignatureInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SqlTypeInspection" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="StringConcatenationInLoops" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="StringConcatenationInsideStringBufferAppend" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="StringEquality" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SuspiciousMethodCalls" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="REPORT_CONVERTIBLE_METHOD_CALLS" value="true" />
+    </inspection_tool>
+    <inspection_tool class="SuspiciousToArrayCall" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="SwitchStatementsWithoutDefault" enabled="true" level="Convention" enabled_by_default="true">
+      <option name="m_ignoreFullyCoveredEnums" value="true" />
+    </inspection_tool>
+    <inspection_tool class="SystemOutErr" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="TestMethodWithoutAssertion" enabled="true" level="Convention" enabled_by_default="true">
+      <option name="assertionMethods" value="org.junit.Assert,assert.*|fail.*,junit.framework.Assert,assert.*|fail.*,org.junit.jupiter.api.Assertions,assert.*|fail.*,org.assertj.core.api.Assertions,assertThat,com.google.common.truth.Truth,assert.*,com.google.common.truth.Truth8,assert.*,org.mockito.Mockito,verify.*,org.mockito.InOrder,verify,org.junit.rules.ExpectedException,expect.*,org.hamcrest.MatcherAssert,assertThat" />
+    </inspection_tool>
+    <inspection_tool class="ThrowFromFinallyBlock" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="ThrowableNotThrown" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="ThrowablePrintStackTrace" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="TrailingSpacesInProperty" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="TrivialIf" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="UNCHECKED_WARNING" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryConditionalExpression" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryLocalVariable" enabled="true" level="Convention" enabled_by_default="true">
+      <option name="m_ignoreImmediatelyReturnedVariables" value="true" />
+      <option name="m_ignoreAnnotatedVariables" value="false" />
+    </inspection_tool>
+    <inspection_tool class="UnnecessaryParentheses" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <option name="ignoreClarifyingParentheses" value="true" />
+      <option name="ignoreParenthesesOnConditionals" value="true" />
+      <option name="ignoreParenthesesOnLambdaParameter" value="false" />
+    </inspection_tool>
+    <inspection_tool class="UnnecessaryTemporaryOnConversionFromString" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="UnnecessaryTemporaryOnConversionToString" enabled="true" level="Convention" enabled_by_default="true" />
+    <inspection_tool class="UnusedAssignment" enabled="true" level="Convention" enabled_by_default="true">
+      <option name="REPORT_PREFIX_EXPRESSIONS" value="false" />
+      <option name="REPORT_POSTFIX_EXPRESSIONS" value="true" />
+      <option name="REPORT_REDUNDANT_INITIALIZER" value="true" />
+    </inspection_tool>
+    <inspection_tool class="UnusedCatchParameter" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="m_ignoreCatchBlocksWithComments" value="true" />
+      <option name="m_ignoreTestCases" value="false" />
+    </inspection_tool>
+    <inspection_tool class="UseBulkOperation" enabled="true" level="Convention" enabled_by_default="true" />
+  </profile>
+</component>
