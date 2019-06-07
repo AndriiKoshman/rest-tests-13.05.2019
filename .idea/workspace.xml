@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f0e2e1f-95a8-42f9-929a-8fc00d146293" name="Default Changelist" comment="" />
+    <list default="true" id="5f0e2e1f-95a8-42f9-929a-8fc00d146293" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/petstore/endpoints/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/petstore/endpoints/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/petstore/endpoints/PetEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/petstore/endpoints/PetEndPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/petstore/endpoints/StoreEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/petstore/endpoints/StoreEndPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/petstore/tests/PetOrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/petstore/tests/PetOrderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/petstore/tests/PetStoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/petstore/tests/PetStoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/petstore/tests/PetUpdateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/petstore/tests/PetUpdateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/weather/WeatherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/weather/WeatherTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/weather/WeatherTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="39" column="52" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="52" />
+            <state relative-caret-position="62">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/petstore/tests/PetUpdateTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+            <state relative-caret-position="138">
+              <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,17 +73,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/petstore/tests/PetOrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="396">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/petstore/tests/PetStoreTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-326">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/petstore/endpoints/PetEndPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="57" lean-forward="true" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+            <state relative-caret-position="304">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,10 +109,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/petstore/endpoints/StoreEndPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="1235">
+              <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/petstore/models/OrderModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#531#532#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#662#663#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#717#718#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#852#853#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#932#933#0" expanded="true" />
+                <element signature="e#963#964#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
+                <element signature="e#1058#1059#0" expanded="true" />
+                <element signature="e#1091#1092#0" expanded="true" />
+                <element signature="e#1116#1117#0" expanded="true" />
+                <element signature="e#1163#1164#0" expanded="true" />
+                <element signature="e#1197#1198#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,7 +157,16 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/petstore/endpoints/Config.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -110,6 +182,7 @@
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -122,15 +195,16 @@
         <option value="$PROJECT_DIR$/src/test/java/petstore/PetStoreTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/petstore/test/PetStoreTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/petstore/models/PetModel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/petstore/endpoints/PetEndPoint.java" />
         <option value="$PROJECT_DIR$/src/test/java/petstore/models/TagModel.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/petstore/tests/PetStoreTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/weather/WeatherTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/petstore/tests/PetUpdateTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/petstore/endpoints/StoreEndPoint.java" />
         <option value="$PROJECT_DIR$/src/test/java/petstore/models/OrderModel.java" />
         <option value="$PROJECT_DIR$/src/test/java/petstore/endpoints/Config.java" />
+        <option value="$PROJECT_DIR$/src/test/java/petstore/tests/PetStoreTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/petstore/endpoints/StoreEndPoint.java" />
+        <option value="$PROJECT_DIR$/src/test/java/petstore/endpoints/PetEndPoint.java" />
+        <option value="$PROJECT_DIR$/src/test/java/weather/WeatherTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/petstore/tests/PetOrderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/petstore/tests/PetUpdateTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -146,18 +220,58 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rest-tests-13.05.2019" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rest-tests-13.05.2019" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rest-tests-13.05.2019" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rest-tests-13.05.2019" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="rest-tests-13.05.2019" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="207" />
+    <option name="x" value="206" />
     <option name="y" value="15" />
     <option name="width" value="1120" />
     <option name="height" value="800" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,7 +321,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="petstore" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rest-tests-13.05.2019" type="b2602c69:ProjectViewProjectNode" />
@@ -215,13 +329,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="petstore" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -230,6 +344,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../rest-tests-13.05.2019(2)" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -243,7 +358,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2149613" />
   </component>
   <component name="RunDashboard">
@@ -270,6 +385,22 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetOrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rest-tests-13.05.2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="petstore.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="petstore.tests" />
+      <option name="MAIN_CLASS_NAME" value="petstore.tests.PetOrderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -301,17 +432,6 @@
       <option name="PACKAGE_NAME" value="petstore.tests" />
       <option name="MAIN_CLASS_NAME" value="petstore.tests.PetStoreTest" />
       <option name="METHOD_NAME" value="createPetTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PetStoreTest.getByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rest-tests-13.05.2019" />
-      <option name="PACKAGE_NAME" value="petstore.tests" />
-      <option name="MAIN_CLASS_NAME" value="petstore.tests.PetStoreTest" />
-      <option name="METHOD_NAME" value="getByIdTest" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -464,9 +584,9 @@
       <list>
         <item itemvalue="JUnit.PetUpdateTest" />
         <item itemvalue="JUnit.PetStoreTest" />
+        <item itemvalue="JUnit.PetOrderTest" />
         <item itemvalue="JUnit.PetStoreTest.getPetByIdTest" />
         <item itemvalue="JUnit.PetStoreTest.createPetTest" />
-        <item itemvalue="JUnit.PetStoreTest.getByIdTest" />
       </list>
     </recent_temporary>
   </component>
@@ -474,47 +594,49 @@
     <configuration>C:\Users\WZHSXG\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TestHistory">
-    <history-entry file="PetUpdateTest - 2019.05.30 at 18h 05m 02s.xml">
+    <history-entry file="PetUpdateTest - 2019.06.05 at 10h 08m 07s.xml">
       <configuration name="PetUpdateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PetUpdateTest - 2019.05.30 at 18h 06m 08s.xml">
+    <history-entry file="PetStoreTest - 2019.06.05 at 10h 12m 34s.xml">
+      <configuration name="PetStoreTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PetUpdateTest - 2019.06.05 at 10h 14m 26s.xml">
       <configuration name="PetUpdateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PetUpdateTest - 2019.05.30 at 18h 06m 21s.xml">
+    <history-entry file="PetOrderTest - 2019.06.05 at 10h 25m 24s.xml">
+      <configuration name="PetOrderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PetOrderTest - 2019.06.05 at 10h 29m 46s.xml">
+      <configuration name="PetOrderTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PetUpdateTest - 2019.06.05 at 11h 27m 49s.xml">
       <configuration name="PetUpdateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PetUpdateTest - 2019.05.30 at 18h 06m 36s.xml">
+    <history-entry file="PetUpdateTest - 2019.06.05 at 12h 00m 14s.xml">
       <configuration name="PetUpdateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PetUpdateTest - 2019.05.30 at 18h 07m 13s.xml">
+    <history-entry file="PetStoreTest - 2019.06.05 at 12h 07m 07s.xml">
+      <configuration name="PetStoreTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PetUpdateTest - 2019.06.05 at 12h 19m 47s.xml">
       <configuration name="PetUpdateTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PetUpdateTest - 2019.05.30 at 18h 12m 30s.xml">
-      <configuration name="PetUpdateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PetUpdateTest - 2019.05.30 at 18h 12m 48s.xml">
-      <configuration name="PetUpdateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PetUpdateTest - 2019.05.30 at 18h 13m 36s.xml">
-      <configuration name="PetUpdateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PetUpdateTest - 2019.05.30 at 18h 13m 48s.xml">
-      <configuration name="PetUpdateTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PetUpdateTest - 2019.05.30 at 18h 17m 17s.xml">
+    <history-entry file="PetUpdateTest - 2019.06.05 at 12h 23m 57s.xml">
       <configuration name="PetUpdateTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17110874" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20067114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2488889" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49798658" visible="true" weight="0.2591508" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30333334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,13 +645,13 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32777777" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4986577" weight="0.329429" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50201344" side_tool="true" visible="true" weight="0.2591508" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32650074" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.3295302" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Database" order="5" weight="0.3295302" />
     </layout>
@@ -539,39 +661,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="FORCE_NON_EMPTY_COMMENT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/petstore/tests/PetUpdateTest.java</url>
-          <line>47</line>
-          <properties class="petstore.tests.PetUpdateTest" method="updatePetTest">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="api-tests" />
+    <MESSAGE value="lesson #5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson #5" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/petstore/tests/PetStoreTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -644,16 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/weather/WeatherTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/petstore/models/TagModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -678,10 +762,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/petstore/endpoints/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/petstore/models/OrderModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="238">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#481#482#0" expanded="true" />
             <element signature="e#500#501#0" expanded="true" />
@@ -711,34 +802,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/petstore/endpoints/Config.java">
+    <entry file="file://$PROJECT_DIR$/target/site/serenity/3b73fedab86727a47c8e324942ece6f60dbd6c6ec24abc12ecc85924f2c43bec.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/3.3.0/rest-assured-3.3.0.jar!/io/restassured/specification/RequestSpecification.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="-399">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/petstore/endpoints/StoreEndPoint.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/weather/WeatherTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/petstore/tests/PetOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/petstore/tests/PetUpdateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="36" lean-forward="true" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+        <state relative-caret-position="62">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -747,8 +824,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/petstore/endpoints/PetEndPoint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="57" lean-forward="true" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        <state relative-caret-position="304">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/petstore/endpoints/StoreEndPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="65" column="1" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/petstore/tests/PetStoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-326">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/petstore/tests/PetOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/petstore/tests/PetUpdateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="73" column="10" lean-forward="true" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -846,5 +973,11 @@
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="verify serenity:aggregate" />
+    <option value="verify serenity:aggregate -Dmaven.test.failure.ignore=true" />
+    <option value="serenity:aggregate" />
   </component>
 </project>

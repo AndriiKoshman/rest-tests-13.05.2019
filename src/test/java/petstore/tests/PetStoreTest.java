@@ -1,7 +1,10 @@
 package petstore.tests;
 
+import net.serenitybdd.junit.runners.SerenityRunner;
+import net.thucydides.core.annotations.Steps;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import petstore.endpoints.PetEndPoint;
 import petstore.models.CategoryModel;
 import petstore.models.PetModel;
@@ -9,8 +12,10 @@ import petstore.models.TagModel;
 
 import static petstore.endpoints.PetEndPoint.Status;
 
+@RunWith(SerenityRunner.class)
 public class PetStoreTest {
 
+  @Steps
   private PetEndPoint petEndPoint = new PetEndPoint();
   private PetModel petModel;
 

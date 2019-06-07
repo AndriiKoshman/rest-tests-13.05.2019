@@ -2,10 +2,13 @@ package weather;
 
 import io.restassured.RestAssured;
 import io.restassured.response.ValidatableResponse;
+import net.serenitybdd.junit.runners.SerenityRunner;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 
 import static org.hamcrest.Matchers.is;
 
+@RunWith(SerenityRunner.class)
 public class WeatherTest {
   @Test
   public void getWeatherPerCityTest() {

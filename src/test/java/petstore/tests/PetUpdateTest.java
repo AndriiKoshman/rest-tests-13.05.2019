@@ -1,8 +1,11 @@
 package petstore.tests;
 
+import net.serenitybdd.junit.runners.SerenityRunner;
+import net.thucydides.core.annotations.Steps;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import petstore.endpoints.PetEndPoint;
 import petstore.models.CategoryModel;
 import petstore.models.PetModel;
@@ -10,8 +13,9 @@ import petstore.models.TagModel;
 
 import static org.hamcrest.core.Is.is;
 
+@RunWith(SerenityRunner.class)
 public class PetUpdateTest {
-
+  @Steps
   private PetEndPoint petEndPoint = new PetEndPoint();
   private PetModel petModel;
 
@@ -30,7 +34,7 @@ public class PetUpdateTest {
         .createPet(petModel)
         .statusCode(200)
         .body("size()",is(6))
-        .body("any{it.value == 78}", is(true));
+        .body("any{it.value =="+ petModel.getId() +"1}", is(true));
   }
 
   @After
@@ -52,8 +56,8 @@ public class PetUpdateTest {
     petEndPoint.updatePet(petModel)
         .statusCode(200)
         .body("size()",is(6))
-        .body("any{it.value == 'SOLD'}", is(true))
-        .body("any{it.value == 'lion'}", is(true));
+        .body("any{it.value == '"+ petModel.getStatus() +"'}", is(true))
+        .body("any{it.value == '"+ petModel.getName() +"'}", is(true));
 
     petEndPoint
         .getPetById(petModel.getId())
