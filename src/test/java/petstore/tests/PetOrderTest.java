@@ -15,7 +15,7 @@ import static org.hamcrest.core.Is.is;
 public class PetOrderTest {
 
   @Steps
-  private StoreEndPoint storeEndPoint = new StoreEndPoint();
+  private StoreEndPoint storeEndPoint;
   private OrderModel orderModel;
 
   @Before

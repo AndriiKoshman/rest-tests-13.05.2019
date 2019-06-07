@@ -3,6 +3,7 @@ package weather;
 import io.restassured.RestAssured;
 import io.restassured.response.ValidatableResponse;
 import net.serenitybdd.junit.runners.SerenityRunner;
+import net.serenitybdd.rest.SerenityRest;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -15,7 +16,8 @@ public class WeatherTest {
     String cityName = "Kharkiv";
     //get city Id by city name
     RestAssured.baseURI = "https://pinformer.sinoptik.ua";
-    ValidatableResponse response= RestAssured.given()
+    SerenityRest.enableLoggingOfRequestAndResponseIfValidationFails();
+    ValidatableResponse response= SerenityRest.given()
         .basePath("search.php")
         .param("lang", "ua")
         .param("return_id", 1)

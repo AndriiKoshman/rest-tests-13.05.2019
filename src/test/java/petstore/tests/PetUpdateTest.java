@@ -16,7 +16,7 @@ import static org.hamcrest.core.Is.is;
 @RunWith(SerenityRunner.class)
 public class PetUpdateTest {
   @Steps
-  private PetEndPoint petEndPoint = new PetEndPoint();
+  private PetEndPoint petEndPoint;
   private PetModel petModel;
 
   @Before
@@ -34,7 +34,7 @@ public class PetUpdateTest {
         .createPet(petModel)
         .statusCode(200)
         .body("size()",is(6))
-        .body("any{it.value =="+ petModel.getId() +"1}", is(true));
+        .body("any{it.value =="+ petModel.getId() +"}", is(true));
   }
 
   @After

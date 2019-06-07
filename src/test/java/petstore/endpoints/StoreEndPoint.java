@@ -1,6 +1,5 @@
 package petstore.endpoints;
 
-import io.restassured.RestAssured;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import net.serenitybdd.rest.SerenityRest;
@@ -15,7 +14,7 @@ public class StoreEndPoint {
 
   private RequestSpecification given(){
     SerenityRest.enableLoggingOfRequestAndResponseIfValidationFails();
-    return RestAssured.given()
+    return SerenityRest.given()
         .baseUri(Config.BASE_URI)
         .contentType("application/json");
         //.log().uri();

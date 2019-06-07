@@ -1,6 +1,6 @@
 package petstore.tests;
 
-import net.serenitybdd.junit.runners.SerenityRunner;
+import net.serenitybdd.junit.runners.SerenityParameterizedRunner;
 import net.thucydides.core.annotations.Steps;
 import org.junit.Before;
 import org.junit.Test;
@@ -12,11 +12,11 @@ import petstore.models.TagModel;
 
 import static petstore.endpoints.PetEndPoint.Status;
 
-@RunWith(SerenityRunner.class)
+@RunWith(SerenityParameterizedRunner.class)
 public class PetStoreTest {
 
   @Steps
-  private PetEndPoint petEndPoint = new PetEndPoint();
+  private PetEndPoint petEndPoint;
   private PetModel petModel;
 
   @Before
