@@ -1,7 +1,8 @@
 package petstore.tests;
 
-import net.serenitybdd.junit.runners.SerenityParameterizedRunner;
+import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Steps;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,25 +13,33 @@ import petstore.models.TagModel;
 
 import static petstore.endpoints.PetEndPoint.Status;
 
-@RunWith(SerenityParameterizedRunner.class)
+@RunWith(SerenityRunner.class)
 public class PetStoreTest {
 
   @Steps
   private PetEndPoint petEndPoint;
-  private PetModel petModel;
+  private  PetModel petModel;
 
   @Before
   public void createPetTest() {
     petModel = new PetModel(
         20,
         new CategoryModel(),
-        "Zombie",
+        "Rex",
         new String[]{"www.zoo.com"},
         new TagModel[]{new TagModel()},
         "AVAILABLE");
 
     petEndPoint.createPet(petModel)
         .statusCode(200);
+  }
+
+  @After
+  public void postCondition(){
+
+    petEndPoint
+            .deletePet(petModel.getId())
+            .statusCode(200);
   }
 
   @Test
@@ -49,8 +58,6 @@ public class PetStoreTest {
       .statusCode(200);
     }
   }
-
-
 
 }
 

@@ -65,5 +65,4 @@ public class PetModel {
     this.tags = tags;
     this.status = status;
   }
-
 }
