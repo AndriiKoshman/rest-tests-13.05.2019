@@ -16,17 +16,17 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @RunWith(SerenityParameterizedRunner.class)
-@Concurrent
+@Concurrent(threads = "3")
 public class PetCreateTest {
-
     @TestData
     public static Collection<Object[]> testData(){
         return Arrays.asList(new Object[][]{
-                {"Sharik",20, 200},
-                {"Rex",21, 200},
-                {"Zhuchka",22, 200}
+            {"Sharik",20, 200},
+            {"Rex" ,21, 200},
+            {"Zhuchka",22, 200}
         });
     }
+
     private final String petName;
     private final int petId;
     private final int statusCode;
@@ -37,9 +37,16 @@ public class PetCreateTest {
         this.statusCode = statusCode;
     }
 
+    @After
+    public void postCondition(){
+        petEndPoint
+            .deletePet(petId)
+            .statusCode(200);
+    }
+
     @Steps
     private PetEndPoint petEndPoint;
-    private  PetModel petModel;
+    private PetModel petModel;
 
     @Test
     public void createPetTest() {
@@ -55,16 +62,4 @@ public class PetCreateTest {
                 .statusCode(this.statusCode);
     }
 
-    @After
-    public void postCondition(){
-
-        petEndPoint
-                .deletePet(petModel.getId())
-                .statusCode(200);
-    }
-
 }
-
-
-
-
