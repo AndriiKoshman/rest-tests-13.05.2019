@@ -14,6 +14,7 @@
         <jackson.databind.version>2.9.9</jackson.databind.version>
         <slf4j.simple.version>1.7.26</slf4j.simple.version>
         <surefire.version>2.20</surefire.version>
+        <failsafe.version>3.0.0-M3</failsafe.version>
     </properties>
 
 
@@ -70,6 +71,15 @@
                     <testFailureIgnore>true</testFailureIgnore>
                     <skip>false</skip>
                 </configuration>
+            </plugin>
+            <plugin>
+            <artifactId>maven-failsafe-plugin</artifactId>
+            <version>${failsafe.version}</version>
+            <configuration>
+                <!-- Parallel execution in the same JVM -->
+                <parallel>classes</parallel>
+                <threadCount>3</threadCount>
+            </configuration>
             </plugin>
         </plugins>
     </build>

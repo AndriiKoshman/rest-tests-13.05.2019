@@ -9,4 +9,5 @@ public class Config {
   final static String GET_INVENTORIES_BY_STATUS = "store/inventory";
   final static String CREATE_ORDER = "store/order";
   final static String FIND_ORDER_BY_ID = "store/order/{orderId}";
+  final static String UPLOAD_IMAGE_BY_ID = "/pet/{petId}/uploadImage";
 }

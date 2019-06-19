@@ -2,6 +2,7 @@ package petstore.tests;
 
 import net.serenitybdd.junit.runners.SerenityRunner;
 import net.thucydides.core.annotations.Steps;
+import net.thucydides.junit.annotations.Concurrent;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -14,6 +15,7 @@ import petstore.models.TagModel;
 import static org.hamcrest.core.Is.is;
 
 @RunWith(SerenityRunner.class)
+@Concurrent
 public class PetUpdateTest {
   @Steps
   private PetEndPoint petEndPoint;

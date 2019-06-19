@@ -16,13 +16,13 @@ import java.util.Arrays;
 import java.util.Collection;
 
 @RunWith(SerenityParameterizedRunner.class)
-@Concurrent(threads = "3")
+@Concurrent
 public class PetCreateTest {
     @TestData
     public static Collection<Object[]> testData(){
         return Arrays.asList(new Object[][]{
-            {"Sharik",20, 200},
-            {"Rex" ,21, 200},
+            {"",20, 200},
+            {" " ,21, 200},
             {"Zhuchka",22, 200}
         });
     }

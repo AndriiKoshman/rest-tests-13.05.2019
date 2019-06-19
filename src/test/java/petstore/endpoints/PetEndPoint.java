@@ -8,6 +8,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import petstore.models.PetModel;
 
+import java.io.File;
+
 public class PetEndPoint {
 private  Logger log = LoggerFactory.getLogger(this.getClass().getName());
 
@@ -68,5 +70,15 @@ private  Logger log = LoggerFactory.getLogger(this.getClass().getName());
         .put(Config.UPDATE_PET_BY_ID)
         .then();
         //.log().all();
+  }
+
+  @Step
+  public ValidatableResponse uploadImage(int petId, File file){
+      return given()
+              .contentType("multipart/form-data")
+              .multiPart(file)
+              .post(Config.UPLOAD_IMAGE_BY_ID,petId)
+              .then();
+      //.log().all();
   }
 }
