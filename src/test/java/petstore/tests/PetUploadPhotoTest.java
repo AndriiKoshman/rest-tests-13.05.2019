@@ -13,6 +13,7 @@ import petstore.models.TagModel;
 
 import java.io.File;
 
+import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.core.Is.is;
 
 @RunWith(SerenityRunner.class)
@@ -20,7 +21,7 @@ public class PetUploadPhotoTest {
     @Steps
     private PetEndPoint petEndPoint;
     private PetModel petModel;
-    private File file;
+    private File petImage;
 
     @Before
     public void preCondition(){
@@ -36,11 +37,16 @@ public class PetUploadPhotoTest {
         petEndPoint
                 .createPet(petModel)
                 .statusCode(200)
-                .body("size()",is(6))
-                .body("any{it.value =="+ petModel.getId() +"}", is(true));
+                .body("size()", is(6))
+                .body("any{it.value ==" + petModel.getId() + "}", is(true));
 
-        file = new File("/Users/andriikoshman/IdeaProjects/rest-tests-13.05.2019/src/test/java/petstore/resources/testimonials-dog-taller.png");
-    }
+        try {
+            petImage = new File(getClass().getClassLoader().getResource("testimonials-dog-taller.png").getFile());
+        }
+        catch(Exception e) {
+            e.getMessage();
+        }
+}
 
     @After
     public void postCondition(){
@@ -56,8 +62,10 @@ public class PetUploadPhotoTest {
     @Test
     public void uploadPetPhotoTest(){
 
-        petEndPoint.uploadImage(petModel.getId(),file)
-                .statusCode(200);
+        petEndPoint.uploadImage(petModel.getId(),petImage)
+                .statusCode(200)
+                .body("message", containsString("testimonials-dog-taller.png"))
+                .log().all();
 
     }
 }

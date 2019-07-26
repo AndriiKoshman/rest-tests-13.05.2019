@@ -15,6 +15,7 @@
         <slf4j.simple.version>1.7.26</slf4j.simple.version>
         <surefire.version>2.20</surefire.version>
         <failsafe.version>3.0.0-M3</failsafe.version>
+        <env>qa</env>
     </properties>
 
 
